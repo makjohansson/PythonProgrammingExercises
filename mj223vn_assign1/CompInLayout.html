@@ -1,0 +1,77 @@
+<h1>Components in the layout Android</h1>
+
+<ul>
+	<li><h3>TextView</h3>
+		- Show text
+		<br>- Can contain differente stiles and include links
+	</li>
+	<li><h3>EditText</h3>
+		- Is an editible TextView
+		<br>- Possiblilie to in the xml-file or code give values to input
+	</li>
+	<li><h3>AutoCompleteTextView</h3>
+		- An EditText that can give sugestions
+		- Good to use when possible, text is a pain to input on a mobil.
+		<p>It give the user sugestions while typing, and is shown as an drop-down meny.The list can be removed at any time by pressing bck buttom or enter. The lsit with sugestinons comes from an ListAdapter and is shown first when a preditirment amount of signs been typed.</p>
+	</li>
+</ul>
+
+<h1>Buttoms</h1>
+<ul>
+	<li><h3>Button</h3>
+		- An ordinary button
+	</li>
+	<li><h3>ImageButton</h3>- Simular to a button but can also show an image on the button</li>
+	<li><h3>CheckBox</h3>- Check boxes </li>
+	<li><h3>ToggleButton</h3>- An button that can be activated or not</li>
+	<li><h3>RadioButton</h3>- Radio button, pressed or not pressed <br>- Placed in an RadioGroup</li>
+</ul>
+
+<h1>EventHandling</h1>
+<ul>
+	<li>As in Java we put listeners on the events we are interised of.</li>
+	<li>Unilike Java the most views is only able to have one listener for eac event due to efectivnes reasons</li>
+	<li>Methods to set listiner are usualy cald somting like set...Listener</li>
+	<li>Listeners can be set in the layout file</li>
+</ul>
+
+<h1>ProgressBar</h1>
+<ul>
+	<li>Shows how an operation is progressing</li>
+	<li>It is important to inform the user that the app is working</li>
+</ul>
+
+<h1>TimePicker and DataPicker</h1>
+<ul>
+	<li>Used to let the user pick a time or date</li>
+	<li>By default <i>TimePicker</i> shows the time in an AM/PM format but can be set to 24-h format by using the method <i>setIs24HoursView.</i></li>
+</ul>
+
+<h1>ImageView</h1>
+<ul>
+	<li>A view used to show an image in the layout</li>
+	<li>What image that will show can be set in the code or in the layout file <i>"xml-file"</i></li>
+	<li>Can be used toghter with tex GridView, Gallery or ImageSwither if we want to show many classes</li>
+</ul>
+
+<h1>GridView</h1>
+<ul>
+	<li>Used to add many components</li>
+	<li>We can decide the amount of columuns that will be in the GridView instace</li>
+	<li>This class is using <i>ListAdapter</i> to decide what should be shown</li>
+</ul>
+
+<h1>Action bar/App bar</h1>
+<ul>
+	<li>From 3.0 Action bar is used (is at the top of the screen)</li>
+	<li>Consist of buttons where each and every one is an action. I not every action fit to the screen the end up in the <i>"Action owerflow"</i></li>
+</ul>
+
+<h1>Menu options / Actions</h1>
+<ul>
+	<li>There is two kind of menues</li>
+	<p><b>- Options-menu</b><br>Shown in the action bar and gives the user options that consern the whole app or screen</p>
+	<p><b>- Contextual menu</b><br>Parts of the screen conserning information about the actual status of the activity</p>
+	<li>Menues can be created within the xml-file</li>
+	<li>Menues is handled with calls from the activity of from a fragment.</li>
+</ul>
